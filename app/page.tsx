@@ -23,9 +23,11 @@ export default function Home() {
           >
             <button className="w-full h-full">Play</button>
           </Link>
-          <button className="font-bold rounded-md md:ml-auto w-44 py-4 bg-white border-2 border-black">
-            Source Code
-          </button>
+          <a href="https://github.com/sizan14789/Dice-Game.git">
+            <button className="font-bold rounded-md md:ml-auto w-44 py-4 bg-white border-2 border-black">
+              Source Code
+            </button>
+          </a>
         </div>
       </div>
     </main>
