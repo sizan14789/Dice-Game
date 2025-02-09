@@ -20,7 +20,7 @@ const Dice: React.FC<DiceProps> = ({
         className="relative cursor-pointer w-40 h-40 md:w-56 md:h-56 lg:w-72 lg:h-72"
         onClick={handleDiceClick}
       >
-        <Image src={`/images/dice/dice_${dice}.png`} fill={true} alt="dice" />
+        <Image src={`/images/dice/dice_${dice}.png`} fill={true} alt="dice" priority />
       </figure>
       <h2>Click on dice to roll</h2>
       <button

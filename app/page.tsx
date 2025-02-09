@@ -11,6 +11,7 @@ export default function Home() {
             alt="Dice game logo"
             fill={true}
             className="object-cover"
+            priority
           />
         </figure>
         <div className="flex md:items-end items-center flex-col w-full gap-5 justify-center">
