@@ -1,5 +1,5 @@
+import { Hero } from "@/ui/Landing/Hero";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,22 +14,9 @@ export default function Home() {
             priority
           />
         </figure>
-        <div className="flex md:items-end items-center flex-col w-full gap-5 justify-center">
-          <h2 className="text-6xl md:text-6xl lg:text-7xl xl:text-[5rem] font-bold whitespace-nowrap">
-            DICE GAME
-          </h2>
-          <Link
-            href="/game"
-            className="font-bold rounded-md md:ml-auto w-44 py-4 bg-black text-white"
-          >
-            <button className="w-full h-full">Play</button>
-          </Link>
-          <a href="https://github.com/sizan14789/Dice-Game.git">
-            <button className="font-bold rounded-md md:ml-auto w-44 py-4 bg-white border-2 border-black">
-              Source Code
-            </button>
-          </a>
-        </div>
+        
+        <Hero />
+
       </div>
     </main>
   );
