@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import GamePage from '@/ui/GamePage'
+import Head from "next/head";
 
 export const metadata:Metadata = {
   title: "Game",
@@ -8,7 +9,16 @@ export const metadata:Metadata = {
 
 const Game = () => {
   return (
-    <GamePage />
+    <>
+    <Head>
+    {[1, 2, 3, 4, 5, 6].map((num) => {
+            return (
+              <link rel="preload" href={`/images/dice/dice_${num}.png`} key={num} /> 
+            );
+          })}
+    </Head>
+      <GamePage />
+    </>
   );
 };
 
