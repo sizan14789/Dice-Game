@@ -26,7 +26,7 @@ export const Hero = () => {
               opacity: 1,
               transition:{
                 duration: 0.1,
-                delay: (index*0.1)+0.1
+                delay: (index*0.1)+.4
               }
             }}
           >
@@ -52,7 +52,7 @@ export const Hero = () => {
           y: 0,
           opacity: 1,
           transition: {
-            delay: 1
+            delay: 1.3
           }
         }}
       >
@@ -73,7 +73,7 @@ export const Hero = () => {
         y: 0,
         opacity:1,
         transition: {
-          delay: 1.2
+          delay: 1.5
         }
       }}
       whileHover={{

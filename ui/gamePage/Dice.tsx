@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-
 import Image from "next/image";
 import Link from "next/link";
+import { useRef } from 'react';
 
 interface DiceProps {
   handleDiceClick: () => void;
@@ -16,6 +16,8 @@ const Dice: React.FC<DiceProps> = ({
   setScore,
   setRules,
 }) => {
+
+
   return (
     <main className="flex flex-col justify-center items-center my-10 lg:mt-20 gap-6">
       <motion.figure
