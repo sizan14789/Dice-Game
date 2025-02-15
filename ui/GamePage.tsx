@@ -13,7 +13,7 @@ const Game = () => {
   const [picked, setPicked] = useState<number | undefined>();
 
   // Number rolled
-  const diceRef = useRef<number | null>(null);
+  const diceRef = useRef<number>(0);
 
   // Rollling state
   const [isRolling, setIsRolling] = useState<boolean>(false);
@@ -60,9 +60,9 @@ const Game = () => {
       clearInterval(roll);
       console.log(diceRef.current, "vs", picked);
       if (diceRef.current === picked) {
-        setScore((prev) => prev + picked);
+        setScore((prev) => prev + diceRef.current);
       } else {
-        setScore((prev) => prev - picked / 6);
+        setScore((prev) => prev - 2);
       }
       setIsRolling(false);
     }, 1500);

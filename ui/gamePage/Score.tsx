@@ -20,7 +20,7 @@ const Score:React.FC<ScoreProps> = ({score, warning, handlePick, picked}) => {
           delay:1.3
         }
       }}>
-        <h2 className="text-6xl">{score === 0? 0 :(score).toFixed(2)}</h2>
+        <h2 className="text-6xl">{score}</h2>
         <h1 className="font-bold text-xl">Total Score</h1>
       </motion.div>
       <div className="flex flex-col gap-5 items-center">
