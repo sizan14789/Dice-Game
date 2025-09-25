@@ -4,20 +4,26 @@ A fun and interactive **Dice Game** built with **Next.js** and **Framer Motion**
 
 ---
 
+# 🎲 live Link
+
+[_Click here_](https://dice-game-sizan.vercel.app/) or copy anf paste https://dice-game-sizan.vercel.app/
+
+---
+
 ## Preview
 
 ### Desktop
 
 <p align="center" >
-  <img src="./assets/home.png" alt="Login Desktop" width="75%" />
-  <img src="./assets/game.png" alt="Homepage Desktop" width="75%" />
+  <img src="./assets/home.png" alt="Home Desktop" width="75%" />
+  <img src="./assets/game.png" alt="Game Desktop" width="75%" />
 </p>
 
 ### Mobile
 
 <p align="center">
-  <img src="./assets/homeMobile.png" alt="Login Mobile" width="30%" />
-  <img src="./assets/gameMobile.png" alt="Homepage Mobile" width="30%" />
+  <img src="./assets/homeMobile.png" alt="Home Mobile" width="30%" />
+  <img src="./assets/gameMobile.png" alt="Game Mobile" width="30%" />
 </p>
 
 ---
